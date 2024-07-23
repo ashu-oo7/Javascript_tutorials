@@ -13,3 +13,11 @@ const obj = {
 }
 obj["Friends"] = 2
 console.log(obj)
+
+console.log(obj.hasOwnProperty("name"))
+
+console.log(Object.keys(obj))
+
+console.log(Object.values(obj))
+
+console.log(Object.entries(obj))
