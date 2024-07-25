@@ -15,3 +15,12 @@ let arr2 = [5,6,7]
 arr = [...arr1,...arr2]
 
 console.log(arr)
+
+let narr = arr.map((val) => val+1)
+console.log("narr ",narr)
+
+narr = arr.filter(val =>val%2 === 0)
+console.log(narr)
+
+narr = narr.reduce((acc,val) => (acc+val),0)
+console.log(narr)
