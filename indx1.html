@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black;color: white; ">
+    <div class="parent">
+        <div class="day"><span hidden = "true">Monday</span></div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+    </div>
+</body>
+<script>
+    let prnt = document.querySelector('.parent')
+    // console.log(prnt.innerText)
+    // console.log(prnt.textContent) 
+    // console.log(prnt.children)
+    // console.log(prnt.children[0].innerHTML)
+    let arr = Array.from(prnt)
+    console.log(arr)
+</script>
+</html>
